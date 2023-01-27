@@ -25,7 +25,7 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   addToCart(product: Product){
-    this.cartService.addToCart
+    this.cartService.add
   }
 
 }
